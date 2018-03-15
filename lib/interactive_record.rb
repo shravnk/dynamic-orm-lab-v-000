@@ -36,9 +36,8 @@ class InteractiveRecord
 
   def col_names_for_insert
     column_names.join(", ")
-    
+
   end
-    
-  end
+
 
 end
