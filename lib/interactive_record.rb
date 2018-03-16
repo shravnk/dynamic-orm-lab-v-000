@@ -58,8 +58,10 @@ class InteractiveRecord
     sql = "SELECT * FROM #{table_name} WHERE name = '#{name}'"
 
     row = DB[:conn].execute(sql)
+  end
 
-
+  def self.find
+    
   end
 
 end
