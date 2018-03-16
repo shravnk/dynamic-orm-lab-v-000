@@ -59,7 +59,7 @@ class InteractiveRecord
 
     row = DB[:conn].execute(sql)
 
-    
+
   end
 
 end
