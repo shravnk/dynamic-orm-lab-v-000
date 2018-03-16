@@ -61,7 +61,7 @@ class InteractiveRecord
   end
 
   def self.find_by(hash)
-    col_name = hash.keys.first.to_str
+    col_name = hash.keys.first.to_s
     binding.pry
     sql = "SELECT * FROM #{table_name} WHERE name = '#{name}'"
 
